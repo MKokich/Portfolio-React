@@ -7,7 +7,7 @@ function NavLinks() {
   return (
     <div>
       <Nav>
-        <Navbar bg="light" variant="light">
+        <Navbar bg="light" variant="light" expland="lg">
           <Navbar.Brand href="/">Mihaela Kokich</Navbar.Brand>
           <Nav className="navLinks">
             <Nav.Link href="/about">About</Nav.Link>

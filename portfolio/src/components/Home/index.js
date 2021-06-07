@@ -10,10 +10,10 @@ function Main() {
         <Col></Col>
         <Col>
           <img
-            src="https://user-images.githubusercontent.com/74884495/119378656-b8103000-bc7b-11eb-95d1-3b05c6fbbd72.jpg"
-            alt=""
-            width="600"
-            height="900"
+            src="https://user-images.githubusercontent.com/75143471/120941565-2e7b4c00-c6d8-11eb-87ba-0e409d843ce9.png"
+            alt="me"
+            width="400"
+            height="500"
             className="img-main"
           ></img>{" "}
         </Col>
