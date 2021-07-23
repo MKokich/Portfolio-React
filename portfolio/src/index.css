@@ -1,5 +1,5 @@
 Nav {
-  margin-left: 500px;
+  position: relative;
 }
 
 .navlinks {
@@ -21,12 +21,12 @@ Nav {
 }
 
 body {
-  background-color: darkslategrey;
+  background-image: ;
 }
 
 .img-main {
   z-index: 3;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .contact-img {
@@ -66,9 +66,9 @@ body {
 
 .about-card {
   background: transparent;
-  border-color: white;
+  border-color: transparent;
   color: whitesmoke;
-  font-size: 20px;
+  font-size: 40px;
   font-family: "Oswald", sans-serif;
   /* z-index: 5; */
   margin-top: 60px;
@@ -79,7 +79,7 @@ body {
   margin-top: 60px;
   text-align: center;
   background-color: transparent;
-  border-color: whitesmoke;
+  border-color: transparent;
   width: 600px;
   z-index: 10;
   margin-left: 360px;
