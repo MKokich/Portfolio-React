@@ -11,7 +11,11 @@ function PortfolioPage() {
     <Container fluid>
       <Row>
         <Col>
-          <h1>MIHAELA'S PORTFOLIO</h1>
+          <Card className="portHeader">
+            <Card.Body>
+              <Card.Title className="portFont">Projects</Card.Title>
+            </Card.Body>
+          </Card>
         </Col>
       </Row>
 

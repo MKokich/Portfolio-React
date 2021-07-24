@@ -141,6 +141,31 @@ body {
   color: whitesmoke;
 }
 
+.homeButton {
+  background-color: rgb(155, 172, 125);
+  width: 20%;
+  color: whitesmoke;
+  border-color: transparent;
+  text-align: center;
+  margin-left: 600px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.portHeader {
+  background-color: rgb(249, 245, 235);
+  border-color: transparent;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(53, 70, 55);
+}
+
+.portFont {
+  font-size: 50px;
+}
+
 .about-card {
   background: transparent;
   border-color: transparent;

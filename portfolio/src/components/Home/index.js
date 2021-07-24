@@ -20,7 +20,9 @@ function Main() {
         </Col>
       </Row>
       <Row>
-        <Button href="./Portfolio">Portfolio</Button>
+        <Button className="homeButton" href="./Portfolio">
+          Enter Portfolio
+        </Button>
       </Row>
     </Container>
   );
