@@ -4,7 +4,7 @@ Nav {
 
 .navlinks {
   color: whitesmoke;
-  font-family: "Oswald", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
   padding-right: 40px;
   text-decoration-line: none !important;
@@ -20,13 +20,37 @@ Nav {
   }
 }
 
+.boozy-card {
+  width: 70%;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.garden-card {
+  width: 70%;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
 body {
-  background-image: ;
+  background-color: rgb(249, 245, 235);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio-background {
+  background-color: rgb(249, 245, 235);
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
 }
 
 .img-main {
   z-index: 3;
-  margin-top: 150px;
+  margin-top: 100px;
+  margin-left: 510px;
 }
 
 .contact-img {
@@ -64,15 +88,39 @@ body {
   }
 }
 
+.home-card {
+  background: transparent;
+  border-color: transparent;
+  color: black;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  z-index: 5;
+  margin-top: 300px;
+  text-align: center;
+}
+
 .about-card {
   background: transparent;
   border-color: transparent;
-  color: whitesmoke;
-  font-size: 40px;
-  font-family: "Oswald", sans-serif;
-  /* z-index: 5; */
-  margin-top: 60px;
+  color: black;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  z-index: 5;
+  margin-top: 40px;
   text-align: center;
+}
+
+.home-button {
+  background: rgb(249, 245, 235);
+  border-color: rgb(249, 245, 235);
+  color: rgb(53, 70, 55);
+  font-size: 40px;
+}
+
+.home-button:hover {
+  background: rgb(249, 245, 235);
+  border-color: rgb(249, 245, 235);
+  color: rgb(53, 70, 55);
 }
 
 .links-card {
@@ -96,9 +144,9 @@ body {
 }
 
 h1 {
-  color: whitesmoke;
+  color: rgb(53, 70, 55);
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
 }
 
@@ -109,7 +157,7 @@ h1 {
 h2 {
   color: whitesmoke;
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   padding-top: 80px;
 }
@@ -122,9 +170,9 @@ h2 {
 .contact-card {
   background: transparent;
   border-color: transparent;
-  color: whitesmoke;
-  font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  color: black;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   z-index: 5;
   margin-top: 200px;
   text-align: center;

@@ -1,33 +1,26 @@
 import React from "react";
-import "../../index.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
+import "../../index.css";
 
 function Main() {
   return (
-    <body>
+    <Container fluid>
       <Row>
         <Col>
-          <Card className="about-card">
+          <Card className="home-card">
             <Card.Body>
-              Hi, I'm Mihaela. Full Stack Web Developer out of Seattle,
-              Washington.
+              <Button className="home-button" href="/Portfolio">
+                Enter My Portfolio
+              </Button>
             </Card.Body>
           </Card>
         </Col>
-        {/* <Col></Col> */}
-        <Col>
-          <img
-            src="https://user-images.githubusercontent.com/75143471/120941565-2e7b4c00-c6d8-11eb-87ba-0e409d843ce9.png"
-            alt="me"
-            width="400"
-            height="500"
-            className="img-main"
-          ></img>{" "}
-        </Col>
       </Row>
-    </body>
+    </Container>
   );
 }
 
