@@ -132,7 +132,7 @@ body {
 .portImg {
   height: 700px;
   width: 700px;
-  margin-top: 80px;
+  margin-top: 70px;
   margin-left: 375px;
 }
 
@@ -150,6 +150,12 @@ body {
   margin-left: 600px;
   margin-top: 30px;
   margin-bottom: 70px;
+}
+
+.homeButton:hover {
+  background-color: rgb(155, 172, 125);
+  border-color: transparent;
+  color: rgb(249, 245, 235);
 }
 
 .portHeader {
