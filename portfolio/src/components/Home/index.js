@@ -15,7 +15,7 @@ function Main() {
         <Col>
           <Card className="portHeader">
             <Card.Body>
-              <Card.Title className="portFont">Mihaela Kokich</Card.Title>
+              <Card.Title className="portFont">About Me</Card.Title>
               {/* <SocialIcon url="https://www.linkedin.com/in/mihaela-kokich-918375200/" /> */}
               <Card.Text className="portText">
                 Graduated a full stack web development boot camp through the

@@ -2,17 +2,15 @@ Nav {
   position: relative;
 }
 
-.navLinks {
-  color: rgb(53, 70, 55);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
-  padding-right: 40px;
-  text-decoration-line: none !important;
-  color: whitesmoke;
-}
-
 .navBar {
   background-color: rgb(80, 65, 65);
+}
+.navBar > a {
+  color: whitesmoke !important;
+  font-family: "Open Sans Condensed", sans-serif;
+  /* font-family: "WindSong", cursive; */
+  font-size: 30px;
+  margin-left: 15px;
 }
 
 .navlinks:hover {
@@ -23,6 +21,10 @@ Nav {
   Nav {
     margin-left: 3;
   }
+}
+
+.mainImg {
+  padding: 0;
 }
 
 .boozy-card {
