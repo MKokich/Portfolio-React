@@ -8,7 +8,6 @@ Nav {
 .navBar > a {
   color: whitesmoke !important;
   font-family: "Open Sans Condensed", sans-serif;
-  /* font-family: "WindSong", cursive; */
   font-size: 30px;
   margin-left: 15px;
 }
@@ -27,49 +26,30 @@ Nav {
   padding: 0;
 }
 
+.mainImg2 {
+  padding: 0;
+  margin-top: 50px;
+}
+
 .boozy-card {
-  width: 80%;
-  margin-left: 100px;
+  width: 50%;
+  margin-left: 350px;
   margin-top: 20px;
   background: transparent;
   border-color: transparent;
 }
 
-.stacked-card {
-  width: 80%;
-  margin-left: 100px;
-  margin-top: 60px;
-  background: transparent;
-  border-color: transparent;
-}
-
-.garden-card {
-  width: 80%;
-  margin-left: 100px;
+.fitness-card {
+  width: 50%;
+  margin-left: 350px;
   margin-top: 60px;
   background: transparent;
   border-color: transparent;
 }
 
 .weather-card {
-  width: 80%;
-  margin-left: 100px;
-  margin-top: 50px;
-  background: transparent;
-  border-color: transparent;
-}
-
-.fitness-card {
-  width: 80%;
-  margin-left: 100px;
-  margin-top: 50px;
-  background: transparent;
-  border-color: transparent;
-}
-
-.note-card {
-  width: 80%;
-  margin-left: 100px;
+  width: 50%;
+  margin-left: 350px;
   margin-top: 50px;
   background: transparent;
   border-color: transparent;
@@ -78,6 +58,22 @@ Nav {
 .portButton {
   background-color: rgb(80, 65, 65);
   border-color: transparent;
+}
+
+.portButton:hover {
+  background-color: rgb(80, 65, 65);
+  border-color: rgb(80, 65, 65);
+}
+
+.portButton2 {
+  background-color: rgb(80, 65, 65);
+  border-color: transparent;
+  margin-left: 5px;
+}
+
+.portButton2:hover {
+  background-color: rgb(80, 65, 65);
+  border-color: rgb(80, 65, 65);
 }
 
 body {
