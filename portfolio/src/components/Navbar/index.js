@@ -6,9 +6,11 @@ function NavLinks() {
   return (
     <div>
       <Navbar className="navBar">
-        <Navbar.Brand className="navBrand" variant="dark" href="/">
-          Mihaela Kokich
-        </Navbar.Brand>
+        <Navbar.Brand
+          className="navBrand"
+          variant="dark"
+          href="/"
+        ></Navbar.Brand>
       </Navbar>
     </div>
   );

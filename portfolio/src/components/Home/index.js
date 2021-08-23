@@ -14,10 +14,10 @@ function Main() {
         <Col>
           <Card className="portHeader">
             <Card.Body>
-              <Card.Title className="portFont">About Me</Card.Title>
+              <Card.Title className="portFont">Mihaela Kokich</Card.Title>
               <Card.Text className="portText">
-                Graduated a full stack web development boot camp through the
-                University of Denver Bootcamps.
+                Graduated from the Full Stack Web Development program through
+                the University of Denver Bootcamps.
               </Card.Text>
               <Card.Text className="portText">
                 Experience in JavaScript, REACT, HTML5/CSS3, Node.js and MySQL.
@@ -182,10 +182,10 @@ function Main() {
               <Button
                 className="portButton2"
                 variant="primary"
-                // href=""
-                // target="_blank"
-                // // rel="noreferrer"
-                // download="TWrightResume.pdf"
+                href=""
+                target="_blank"
+                // rel="noreferrer"
+                download="Mihaela Kokich.pdf"
               >
                 Resume
               </Button>
