@@ -8,6 +8,7 @@ function Home() {
     <div>
       <Navlinks />
       <Main />
+      {/* <Footer/> */}
     </div>
   );
 }
