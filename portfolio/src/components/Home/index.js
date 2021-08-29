@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import "../../index.css";
+import Resume from "../../images/Resume.pdf";
 
 function Main() {
   return (
@@ -182,10 +183,8 @@ function Main() {
               <Button
                 className="portButton2"
                 variant="primary"
-                href=""
+                href={Resume}
                 target="_blank"
-                // rel="noreferrer"
-                download="Mihaela Kokich.pdf"
               >
                 Resume
               </Button>
