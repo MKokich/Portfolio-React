@@ -7,13 +7,14 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Switch>
-          <Route path="/" component={Home} />
-        </Switch>
-      </div>
-    </Router>
+    <Home />
+    // <Router>
+    //   <div>
+    //     <Switch>
+    //       <Route path="/" component={Home} />
+    //     </Switch>
+    //   </div>
+    // </Router>
   );
 }
 
